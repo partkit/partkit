@@ -1,0 +1,22 @@
+{
+  "name": "partkit",
+  "version": "0.0.1",
+  "description": "Modular, minimal, and modern JavaScript tools for web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./dist && mkdir -p ./dist",
+    "build": "cp ./index.html ./dist/index.html",
+    "prebuild": "npm run clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partkit/partkit.git"
+  },
+  "author": "Alexander Wende",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/partkit/partkit/issues"
+  },
+  "homepage": "https://github.com/partkit/partkit#readme"
+}
